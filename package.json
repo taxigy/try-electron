@@ -1,0 +1,23 @@
+{
+  "name": "try-electron",
+  "version": "0.0.1",
+  "description": "Try Electron (https://electron.atom.io)",
+  "main": "index.js",
+  "engines": {
+    "node": ">7.0.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "electron",
+    "javascript",
+    "node",
+    "webkit"
+  ],
+  "author": "Rishat Muhametshin <rishatmuhametshin@gmail.com> (http://rishat.us/)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.6"
+  }
+}
