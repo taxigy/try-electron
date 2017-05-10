@@ -1,5 +1,3 @@
-const { create } = require('jss');
+import { create } from 'jss';
 
-const styles = create();
-
-module.exports = styles;
+export default create();

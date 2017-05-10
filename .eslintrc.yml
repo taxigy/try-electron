@@ -1,0 +1,12 @@
+extends: airbnb
+rules:
+  quote-props:
+    - 0
+  react/jsx-filename-extension:
+    - 0
+  react/prop-types:
+    - 0
+plugins:
+  - react
+  - jsx-a11y
+  - import
