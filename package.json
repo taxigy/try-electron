@@ -10,7 +10,7 @@
     "dev": "webpack --watch",
     "build": "webpack",
     "test": "ava",
-    "start": "electron ."
+    "start": "(which yarnz && yarn build || npm run build); electron ."
   },
   "repository": {
     "type": "git",
